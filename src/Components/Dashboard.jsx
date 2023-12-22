@@ -98,7 +98,7 @@ const Dashboard = () => {
                         <a
                           href={`${config.userApi}/${url.shortUrl}`}
                           target="_blank"
-                        >{`${config.userApi}/${url.shortUrl}`}</a>
+                        >{`${url.shortUrl}`}</a>
                       </div>
                     )}
                     {url && (
