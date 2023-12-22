@@ -104,8 +104,8 @@ const Dashboard = () => {
                     {url && (
                       <div className="p-3">
                         <span>Original Url</span> <br />
-                        <a href={`${config.userApi}/${url.originalUrl}`}>
-                          {`${config.userApi}/${url.originalUrl}`}
+                        <a href={`${url.originalUrl}`}>
+                          {`${url.originalUrl}`}
                         </a>
                       </div>
                     )}
