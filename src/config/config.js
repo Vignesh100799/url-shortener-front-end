@@ -1,3 +1,3 @@
 export const config = {
-   userApi: 'https://user-authen.onrender.com' 
+   userApi: 'https://urlshortener-backend-pkt5.onrender.com' 
 }
